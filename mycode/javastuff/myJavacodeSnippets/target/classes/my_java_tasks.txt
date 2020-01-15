@@ -1,0 +1,29 @@
+==================================
+@2019 DEC 26
+==================================
+
+
+
+==================================
+@2019 DEC 24
+==================================
+1.How to read config.properties.
+Ans:https://medium.com/@sonaldwivedi/how-to-read-config-properties-file-in-java-6a501dc96b25
+==================================
+@2019 DEC 23
+==================================
+1. How to create a FAT JAR ? Try making a very simple app, let's say hello world, and make its fat jar. Also create a bash wrapper script to run it on linux enrivonment.
+Ans: https://howtodoinjava.com/maven/maven-shade-plugin-create-uberfat-jar-example/
+To run:- "java -jar package".
+==================================
+@2019 DEC 19
+==================================
+1.Create 2 Threads and print their ID's 
+==================================
+@2019 DEC 18
+==================================
+1. COMPLETED:	Read a txt file and print its output on screen
+2. COMPLETED:	Read a XML file and .....
+3. COMPLETED:	Read a JSON file and prin ....
+
+# END OF DOCUMENT

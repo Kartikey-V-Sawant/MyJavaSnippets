@@ -1,0 +1,84 @@
+==================================
+@2019 DEC 31
+==================================
+1.  Write a program to validate whether the given json file is a valid JSON file or not.
+    Program must accept the name of the json via a config/properties file.
+    It must use exceptions. It need not print the output of the JSON file but it needs to
+    tell us about the validity of the JSON file.
+
+2.  How to use log4j logging package. Write a program demonstrating ALL OF ITS features.
+==================================
+@2019 DEC 23
+==================================
+1. What is try catch block? what is it used for?
+Ans:    Java try block is used to enclose the code that might throw an exception. It must be used within the method.
+        If an exception occurs at the particular statement of try block, the rest of the block code will not execute.
+        So, it is recommended not to keeping the code in try block that will not throw an exception.
+        Java try block must be followed by either catch or finally block.
+
+        ======================
+        @2019 DEC 31
+        ======================
+        Question:
+        a)  What will happen if we don't catch the exception? Is it something which we could afford? What impact does it have on the program?
+        Ans When you try something, you may win or loose, pass or fail.
+        That is the try block.If you don’t want to loose or fail, then use the ‘Catch’ block.
+        It will tell you the mistake(Exception), so that you don’t repeat the mistake.
+
+==================================
+@2019 DEC 19
+==================================
+1. What is JSON ??
+It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa).
+    @2019 DEC 31
+    a)  What is a JSON structure?
+    JSON is Collections of hashmap.
+    JSON defines only two data structures: objects and arrays.
+    It has two data structures: collection & list.
+    An object is a set of name-value pairs, and an array is a list of values.
+    JSON defines seven value types: string, number, object, array, true, false, and null.
+    1.Objects are enclosed in braces ({}), their name-value pairs are separated by a comma (,), and the name and value in a pair are separated by a colon (:).
+    2.Arrays are enclosed in brackets ([]), and their values are separated by a comma (,). Each value in an array may be of a different type, including another array or an object.
+    3.When objects and arrays contain other objects or arrays, the data has a tree-like structure.
+
+==================================
+@2019 DEC 18
+==================================
+1. what is the purpose of hashmap?
+Ans:The purpose of a map is to store items based on a key that can be used to retrieve the item at a later point.
+    Similar functionality can only be achieved with a list in the limited case where the key happens to be the position in the list.
+    1.It is used for representing data from json file.
+    2.In hashmap it is easy to store and retrieve an element.
+    3.It can be used in an Java Spinner ,Dropdown list,etc.
+    4.It can be used for security purpose e.g. Securing passwords in any data.
+
+@2019 DEC 31
+a) Question:    Why is the hashmap faster than the List/Array ??
+Ans In List/Array if we want to search an element the time varies in while performing the search operation.It depends upon the number of elements in list/array.
+    Whereas in hashmap it takes same time for searching element. As it searches on basis of key & value.
+
+
+2. How does hashmap work?
+Ans HashMap in Java works on hashing principle. It is a data structure which allows us to store object and retrieve it in constant time O(1) provided we know the key.
+    In hashing, hash functions are used to link key and value in HashMap. Objects are stored by calling put(key, value) method of HashMap and retrieved by calling get(key) method.
+    When we call put method, hashcode() method of the key object is called so that hash function of the map can find a bucket location to store value object,
+    which is actually an index of the internal array, known as the table.
+    HashMap internally stores mapping in the form of Map.Entry object which contains both key and value object.
+    When you want to retrieve the object, you call the get() method and again pass the key object.
+    This time again key object generate same hash code (it's mandatory for it to do so to retrieve the object and that's why HashMap keys are immutable e.g. String)
+    and we end up at same bucket location.
+    If there is only one object then it is returned and that's your value object which you have stored earlier
+
+
+
+3. Why would we use hashmap ????????
+Ans. 1.Hashmap is fast in storing and retrieving elements as comapared to any other data structure.
+     2.It has constant time performance for it's operation.
+     2.HashMap contains values based on the key.
+     3.Contains only unique elements.
+     4.May have one null key and multiple null values
+     5.Maintains no order for storing elements.
+
+
+@2019 DEC 31:
+Hint: This answer is related to Questio #1 (a).

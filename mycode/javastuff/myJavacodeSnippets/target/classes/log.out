@@ -1,0 +1,16 @@
+Log4j_Example -main  -  03 Jan 2020 11:42:57,485 INFO  -  Sample log Message
+ Log4j_Example -main  -  03 Jan 2020 11:42:57,487 DEBUG - Sample debug Message
+ Log4j_Example -main  -  03 Jan 2020 11:42:57,488 WARN  - sample Warn Message
+ Log4j_Example -main  -  03 Jan 2020 11:42:57,488 FATAL - Exeception Caught java.io.FileNotFoundException: /src/main/resources/input1.txt (No such file or directory)
+ Log4j_Example -main  -  03 Jan 2020 11:42:57,488 ERROR - Error:  /src/main/resources/input1.txt (No such file or directory)
+ Log4j_Example -main  -  03 Jan 2020 11:44:40,987 INFO  -  Sample log Message
+ Log4j_Example -main  -  03 Jan 2020 11:44:40,990 DEBUG - Sample debug Message
+ Log4j_Example -main  -  03 Jan 2020 11:44:40,990 WARN  - sample Warn Message
+ Log4j_Example -main  -  03 Jan 2020 11:44:40,991 FATAL - Exeception Caught java.io.FileNotFoundException: /src/main/resources/input1.txt (No such file or directory)
+ Log4j_Example -main  -  03 Jan 2020 11:44:40,991 ERROR - Error:  /src/main/resources/input1.txt (No such file or directory)
+ Log4j_Example -main  -  03 Jan 2020 13:01:25,746 INFO  -  Sample log Message
+ Log4j_Example -main  -  03 Jan 2020 13:01:25,748 DEBUG - Sample debug Message
+ Log4j_Example -main  -  03 Jan 2020 13:01:25,748 WARN  - sample Warn Message
+ Log4j_Example -main  -  03 Jan 2020 13:01:25,749 FATAL - Exeception Caught java.io.FileNotFoundException: /src/main/resources/input1.txt (No such file or directory)
+ Log4j_Example -main  -  03 Jan 2020 13:01:25,749 ERROR - Error:  /src/main/resources/input1.txt (No such file or directory)
+ 
