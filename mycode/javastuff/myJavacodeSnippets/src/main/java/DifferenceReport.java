@@ -8,6 +8,7 @@ public class DifferenceReport {
         // for below 2 arrays using hashmap
         Integer[] a = {1,2,3,4,5};
         Integer[] b =  {1,3,5};
+
         HashMap<Integer,Integer> hma = new HashMap<Integer, Integer>();
         HashMap<Integer,Integer> hmb = new HashMap<Integer, Integer>();
         for (int i = 0; i < a.length; i++)  {

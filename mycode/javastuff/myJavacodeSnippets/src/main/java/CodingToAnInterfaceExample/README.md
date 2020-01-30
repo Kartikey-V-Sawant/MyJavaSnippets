@@ -56,9 +56,7 @@ Tasks to do:
             software design.
         
         
-        //  THE POINT IS VERY ABSTRACT. IT IS REQUIRED TO BE EXPLAINED.
-        //  ONLY ONE LINERS DO NOT HELP ANYONE TO UNDERSTAND ANYTHING.
-        //5. Data abstraction was not used in this implementation.
+     
         
           
         
@@ -81,8 +79,7 @@ Tasks to do:
                                     in this interface.
                                     
                                     1.String getFileName() : Initially We declared an String filename with null value.Since this method
-                                    has no return type we will return the value of filename in the body of the method.Further we 
-                                    will use the filename.
+                                    has no return type we will return the value of filename. 
                                     
                                     2.void setFilename(string Filename) : This method takes Filename as parameter.In this Method body 
                                     we have set value of FileName  by filename.This will help to get the filename from the user.
@@ -94,17 +91,24 @@ Tasks to do:
                                                method uses return type as interface FileProcessor and parameter as filename. 
                                                By using return type as FileProcessor, we can return any of the class as object which ever class 
                                                implements that interface.It will help us to process the files according to the 
-                                               file type.If the file type is .xml then it will return XMLFileProcessor(); 
-                                               as object and if it is .json then it will return JSONFileProcessor().
-                                                
+                                               file type.
+                                               
+        3.  The FileProcessObjectSelector implements interface FileProcessObjectSelector.Then we have defined the method 
+            SelectObjectBasedOnFilename(File file_name) which is declared in interface.This method will take filename as 
+            input and return the class according to the file type.                                  
                                                 
                                                 
             
-        3.  The MainFileProcessor class Contains the Main class of our application in which it takes input from user.Then we created directory
-            object of the input.Similarly,We created object for FileProcessObjectSelectorImp1. We have also declared an fp variable as null
-             with return type FileProcessor Which will help us to call the methods from the base class.Then we iterated over the directory on each file .
-            
-         
-        4.  In new implementation, If there is requirement of adding a new feature to the software or application . 
+        4.  The MainFileProcessor class file Contains the Main class of our application in which it takes input from user as directory.
+        Then we created directory object of the input.Similarly,We created object for FileProcessor fp which is set to null.Then we created the instance
+        of the FileProcessObjectSelectorImpl and its return type is FileProcessObjectSelector. we have performed 2 iterations, 1st iteration
+        is on each file in the directory.2nd iteration is checking whether fp is  not null ,Whatever the method SelectObjectBasedOnFilename(File file_name)
+        will return is stored in fp.
+      
+        
+        5.  If there is requirement of adding a new feature to the software or application . 
             We just need to implement new class file and then bound it to the interface.As the Main logic remains the same.
             We are just adding new feature to the application.
+
+        6. In MainProcessor_old class we were iterating over each file and creating object for based on xml or json.Using the object
+           we were calling the methods setfilename and processinglogic()

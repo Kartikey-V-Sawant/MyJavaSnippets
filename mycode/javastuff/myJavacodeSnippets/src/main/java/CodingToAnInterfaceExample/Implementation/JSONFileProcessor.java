@@ -28,6 +28,7 @@ public class JSONFileProcessor implements FileProcessor {
         //  JsonParser is used for parsing JSON object into java Object..
         JSONParser jsonParser= new JSONParser();
         Object obj=jsonParser.parse(new FileReader(String.valueOf(filename)));
+
         //  typecasting java to json - But why ????
         JSONObject jsonObject = (JSONObject) obj;
 

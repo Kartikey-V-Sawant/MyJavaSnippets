@@ -1,20 +1,10 @@
 package CodingToAnInterfaceExample;
 
-import CodingToAnInterfaceExample.Implementation.JSONFileProcessor;
-import CodingToAnInterfaceExample.Implementation.XMLFileProcessor;
 import CodingToAnInterfaceExample.ourInterface.FileProcessObjectSelector;
-import CodingToAnInterfaceExample.ourInterface.FileProcessObjectSelectorImpl;
+import CodingToAnInterfaceExample.Implementation.FileProcessObjectSelectorImpl;
 import CodingToAnInterfaceExample.ourInterface.FileProcessor;
-import org.w3c.dom.Document;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import java.io.File;
-import java.io.StringWriter;
 import java.util.Scanner;
 
 public class MainFileProcessor
@@ -37,6 +27,7 @@ public class MainFileProcessor
         for (File file_name : directory.listFiles())
         {
             fp = selector.SelectObjectBasedOnFilename (file_name) ;
+
             if (fp != null) {
                 // process the given file
                 try {

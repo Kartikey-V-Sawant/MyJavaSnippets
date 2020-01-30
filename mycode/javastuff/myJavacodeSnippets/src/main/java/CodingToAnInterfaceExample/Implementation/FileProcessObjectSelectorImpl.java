@@ -1,8 +1,10 @@
-package CodingToAnInterfaceExample.ourInterface;
+package CodingToAnInterfaceExample.Implementation;
 
 import java.io.File;
 import CodingToAnInterfaceExample.Implementation.JSONFileProcessor;
 import CodingToAnInterfaceExample.Implementation.XMLFileProcessor;
+import CodingToAnInterfaceExample.ourInterface.FileProcessObjectSelector;
+import CodingToAnInterfaceExample.ourInterface.FileProcessor;
 
 public class FileProcessObjectSelectorImpl implements FileProcessObjectSelector
 {

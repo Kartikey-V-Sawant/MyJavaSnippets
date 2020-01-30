@@ -9,8 +9,7 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import java.io.File;
-import java.io.FileReader;
+
 import java.io.StringWriter;
 
 public class XMLFileProcessor implements FileProcessor {

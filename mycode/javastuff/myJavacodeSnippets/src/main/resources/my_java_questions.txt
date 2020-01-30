@@ -1,3 +1,36 @@
+================================================
+@2020 jan 23
+==================================================
+1.Generics.
+
+
+==================================================
+@2020 Jan 22
+=================================================
+1. Stack
+2. Queue
+==================================
+@2020 JAN 15
+==================================
+1. Polymorphism.
+Ans In this we  can perform a single action in different ways.
+    Polymorphism is derived from 2 Greek words: poly and morphs.
+    The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
+
+2. Runtime Polymorphism.
+Ans It is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
+    In this process, an overridden method is called through the reference variable of a superclass.
+    The determination of the method to be called is based on the object being referred to by the reference variable.
+    for eg If the reference variable of Parent class refers to the object of Child class.
+
+3. Compile Time Polymorphism.
+Ans It is also known as static polymorphism. This type of polymorphism is achieved by function overloading or operator overloading.
+    for eg '+' operator can be used for addition and for concatenating string values.
+
+4. Inheritance.
+Ans It is mechanism in which  a class is allowed to inherit its properties to another class.The class which inherites its property is parent class and the class
+    which is derived from parent class is called child class.
+
 ==================================
 @2019 DEC 31
 ==================================
