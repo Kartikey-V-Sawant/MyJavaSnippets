@@ -1,3 +1,4 @@
+package InputFileReader;
 
 import java.io.File;
 import java.io.FileReader;

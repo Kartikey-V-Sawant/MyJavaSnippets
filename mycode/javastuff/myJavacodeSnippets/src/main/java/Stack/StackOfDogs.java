@@ -1,5 +1,7 @@
 package Stack;
 
+import Stack.Generic_Stack.MyStack;
+
 public class StackOfDogs {
 public  static void main(String args[]) {
     MyStack<Dog> stackOfDogs = new MyStack<>(10);

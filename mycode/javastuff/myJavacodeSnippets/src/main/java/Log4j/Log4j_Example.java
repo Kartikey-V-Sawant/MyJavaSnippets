@@ -1,3 +1,5 @@
+package Log4j;
+
 import org.apache.log4j.Logger;
 
 import java.io.FileReader;

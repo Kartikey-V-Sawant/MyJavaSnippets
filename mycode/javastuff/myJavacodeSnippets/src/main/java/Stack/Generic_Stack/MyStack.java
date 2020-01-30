@@ -1,18 +1,18 @@
-package Stack;
+package Stack.Generic_Stack;
 
-class MyStack<I> {
+public class MyStack<I> {
   private I[] m_stack;
   private int m_top_element ;
   private int maxsize;
 
   //Constructor for our class which is taking stack size as argument.
-  MyStack(int initial_size) {
+  public MyStack(int initial_size) {
 
     maxsize=initial_size;
     m_stack = (I[]) new Object[initial_size];
     m_top_element=-1;
     }
-  void push(I item){
+  public void push(I item){
 
     m_stack[++m_top_element]= item;
 
@@ -20,15 +20,16 @@ class MyStack<I> {
   }
 
   //method for removing item from stack
-  I pop(){
+  public I pop(){
 
     I item = m_stack[m_top_element--];
 
     return item;  }
 
   //method to show element at top.
-  I top(){
+  public I top(){
     if(m_top_element <0)
+
       return null;
     return m_stack[m_top_element]; }
 

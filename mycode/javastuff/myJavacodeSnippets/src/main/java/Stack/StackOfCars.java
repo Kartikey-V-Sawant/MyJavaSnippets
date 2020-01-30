@@ -1,5 +1,7 @@
 package Stack;
 
+import Stack.Generic_Stack.MyStack;
+
 public class StackOfCars {
     public static void main(String[] a)
     {
