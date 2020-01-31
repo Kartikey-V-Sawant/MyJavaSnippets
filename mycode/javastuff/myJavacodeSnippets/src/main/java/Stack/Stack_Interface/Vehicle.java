@@ -2,8 +2,9 @@ package Stack.Stack_Interface;
 
 import Stack.Generic_Stack.MyStack;
 
-public interface StackInterface {
-    MyStack Carstack();
+public interface Vehicle {
+
+
     int id();
 
 

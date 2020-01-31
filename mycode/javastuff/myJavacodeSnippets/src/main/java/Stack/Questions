@@ -1,0 +1,6 @@
+
+1.What should the vehicle interface contain?
+2.If BMW,Mercedes,Audi,etc  implements Vehicle what should it return?
+  is it returning a stack?
+3.How to get Id's of stack?
+4.For every car do we have to

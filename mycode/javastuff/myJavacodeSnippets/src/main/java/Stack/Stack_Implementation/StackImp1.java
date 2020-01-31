@@ -2,13 +2,10 @@ package Stack.Stack_Implementation;
 
 import Stack.Car;
 import Stack.Generic_Stack.MyStack;
-import Stack.StackOfStack;
-import Stack.Stack_Interface.StackInterface;
 
-public class StackImp1 implements StackInterface {
+public class StackImp1  {
 
     private int m_id;
-int s_id;
     public StackImp1(int m_id){
         this.m_id=m_id;
     }
